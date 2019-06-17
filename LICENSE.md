@@ -1,0 +1,1 @@
+All code in this repository is licensed under MIT license and comics are licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
