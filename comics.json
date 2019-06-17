@@ -1,0 +1,17 @@
+[{
+  "id": "anti-outage-script",
+  "title": "The Anti-outage Script",
+  "description": "Never push to production on Friday after 5pm",
+  "panels": [{
+    "url": "/assets/comics/anti-outage-script/strip1.png",
+    "alt": "SPEAKER STANDING ON STAGE: The amount of outages per year has dropped by 60% after we added a simple script to GitHub Pull Request checks"
+  }, {
+    "url": "/assets/comics/anti-outage-script/strip2.png",
+    "alt": "SPEAKER STANDING ON STAGE: And here's it's code"
+  }, {
+    "url": "/assets/comics/anti-outage-script/strip3.png",
+    "alt": "SCRIPT THAT EXITS WITH A NON-ZERO EXIT CODE IF TODAY IS FRIDAY AND IT'S AFTER 5PM"
+  }],
+  "fullComicImage": "/assets/comics/anti-outage-script/full.png",
+  "socialMediaReady": "/assets/comics/anti-outage-script/social.png"
+}]

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- Primary Meta Tags -->
+  <title><%= comic.title %> - Comics by George Bougakov</title>
+  <meta name="title" content="<%= comic.title %> - Comics by George Bougakov">
+  <meta name="description" content="<%= comic.description %>">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="<%= comic.title %> - Comics by George Bougakov">
+  <meta property="og:description" content="<%= comic.description %>">
+  <meta property="og:image" content="<%= comic.socialMediaReady %>">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="<%= comic.title %> - Comics by George Bougakov">
+  <meta property="twitter:description" content="<%= comic.description %>">
+  <meta property="twitter:image" content="<%= comic.socialMediaReady %>">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+  <div class="uk-padding-large uk-flex uk-flex-center">
+    <div class="uk-width-1-2@m">
+      <h3>Comics by <a href="https://bygeorgenet.me">George Bougakov</a></h3>
+      <h1 class="uk-margin-small-bottom uk-text-bold"><%= comic.title %></h1>
+      <p class="uk-margin-bottom uk-margin-small-top"><%= comic.description %></p>
+      <div class="uk-child-width-1-3@m uk-grid-collapse" uk-grid>
+        <% comic.panels.forEach(panel => { %>
+        <div>
+          <img src="<%= panel.url %>" alt="<%= panel.alt %>">
+        </div>
+        <% }) %>
+      </div>
+
+      <ul class="uk-pagination">
+        <% if (previousID) { %>
+        <li><a href="/<%= previousID %>"><span class="uk-margin-small-right" uk-pagination-previous></span> Previous</a>
+        </li>
+        <% } %>
+        <% if (nextID) { %>
+        <li class="uk-margin-auto-left"><a href="/<%= nextID %>">Next <span class="uk-margin-small-left"
+              uk-pagination-next></span></a></li>
+        <% } %>
+      </ul>
+
+      <dl class="uk-description-list">
+        <dt>Image URL for hotlinking</dt>
+        <dd>https://<script>document.write(location.host)</script><%= comic.fullComicImage %></dd>
+        <dt>License</dt>
+        <dd><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type"><%= comic.title %> comic</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://bygeorgenet.me" property="cc:attributionName" rel="cc:attributionURL">George Bougakov</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.  Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://bygeorgenet.me/contact" rel="cc:morePermissions">https://bygeorgenet.me/contact</a>.</dd>
+      </dl>
+    </div>
+  </div>
+</body>
+
+</html>

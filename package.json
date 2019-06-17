@@ -1,0 +1,29 @@
+{
+  "name": "comics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbougakov/comics.git"
+  },
+  "author": "George Bougakov",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/gbougakov/comics/issues"
+  },
+  "homepage": "https://github.com/gbougakov/comics#readme",
+  "description": "",
+  "devDependencies": {
+    "xo": "^0.24.0"
+  },
+  "dependencies": {
+    "ejs": "^2.6.2"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  }
+}
