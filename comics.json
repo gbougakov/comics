@@ -14,4 +14,23 @@
   }],
   "fullComicImage": "/assets/comics/anti-outage-script/full.png",
   "socialMediaReady": "/assets/comics/anti-outage-script/social.png"
+}, {
+  "id": "if-music-services-suggested-food",
+  "title": "If music services suggested food",
+  "description": "That's why Microsoft Groove is dead",
+  "panels": [{
+    "url": "/assets/comics/if-music-services-suggested-food/strip1.png",
+    "alt": "IF MUSIC SERVICES SUGGESTED FOOD"
+  }, {
+    "url": "/assets/comics/if-music-services-suggested-food/strip2.png",
+    "alt": "SPOTIFY: You like seafood and tacos, so try a shrimp taco"
+  }, {
+    "url": "/assets/comics/if-music-services-suggested-food/strip3.png",
+    "alt": "APPLE MUSIC: Try pizza. Most people like it, you will like it too."
+  }, {
+    "url": "/assets/comics/if-music-services-suggested-food/strip4.png",
+    "alt": "MICROSOFT GROOVE: You like chocolate, that means you like brown, so here's some shit"
+  }],
+  "fullComicImage": "/assets/comics/if-music-services-suggested-food/Full.png",
+  "socialMediaReady": "/assets/comics/if-music-services-suggested-food/social.png"
 }]
