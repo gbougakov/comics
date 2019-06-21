@@ -33,4 +33,29 @@
   }],
   "fullComicImage": "/assets/comics/if-music-services-suggested-food/Full.png",
   "socialMediaReady": "/assets/comics/if-music-services-suggested-food/social.png"
+}, {
+  "id": "the-doorbell",
+  "title": "The doorbell",
+  "description": "This comic is a remake of XKCD's \"I'm an idiot\" based on my experience.",
+  "panels": [{
+    "url": "/assets/comics/the-doorbell/strip1.png",
+    "alt": "One day I came back from school and couldn't unlock the door with my key."
+  }, {
+    "url": "/assets/comics/the-doorbell/strip2.png",
+    "alt": "At first, I assumed that my parents were home, so I rang the doorbell, but no one heard it"
+  }, {
+    "url": "/assets/comics/the-doorbell/strip3.png",
+    "alt": "Then I asked my Google Home to yell 'Let me in', but no one heard it, again"
+  }, {
+    "url": "/assets/comics/the-doorbell/strip4.png",
+    "alt": "My final resort was to VNC into my home Mac server, AirPlay it to my Apple TV and make it yell 'Let me in'"
+  }, {
+    "url": "/assets/comics/the-doorbell/strip5.png",
+    "alt": "After that, I decided to check 'Find my Friends'. My parents were not home"
+  }, {
+    "url": "/assets/comics/the-doorbell/strip6.png",
+    "alt": "I found out that I tried to unlock the door with the wrong key."
+  }],
+  "fullComicImage": "/assets/comics/the-doorbell/Full.png",
+  "socialMediaReady": "/assets/comics/the-doorbell/social.png"
 }]
