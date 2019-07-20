@@ -58,4 +58,23 @@
   }],
   "fullComicImage": "/assets/comics/the-doorbell/Full.png",
   "socialMediaReady": "/assets/comics/the-doorbell/social.png"
+}, {
+  "id": "hardware-bugs",
+  "title": "Hardware bugs",
+  "description": "True story: I once spent 3 hours looking for a software bug when actually I had the wrong resistor connected to a button",
+  "panels": [{
+    "url": "/assets/comics/hardware-bugs/strip1.png",
+    "alt": "Hmm... ON SCREEN OF AN ARDUINO: TEMPERATURE 255 DEGREES CELSIUS"
+  }, {
+    "url": "/assets/comics/hardware-bugs/strip2.png",
+    "alt": "That's weird. TERMINAL: COMPILATION SUCCESSFUL"
+  }, {
+    "url": "/assets/comics/hardware-bugs/strip3.png",
+    "alt": "5 HOURS LATER: I connected the sensor to the wrong pin!"
+  }, {
+    "url": "/assets/comics/hardware-bugs/strip4.png",
+    "alt": "When making Arduino projects, I often forget, that in addition to software bugs, there are hardware bugs."
+  }],
+  "fullComicImage": "/assets/comics/hardware-bugs/Full.png",
+  "socialMediaReady": "/assets/comics/hardware-bugs/social.png"
 }]
