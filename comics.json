@@ -77,4 +77,23 @@
   }],
   "fullComicImage": "/assets/comics/hardware-bugs/Full.png",
   "socialMediaReady": "/assets/comics/hardware-bugs/social.png"
+}, {
+  "id": "catsandwork",
+  "title": "Cats and remote work",
+  "description": "Why cats don't need to worry about deadlines?",
+  "panels": [{
+    "url": "/assets/comics/catsandwork/strip1.png",
+    "alt": "Time to get some work done!"
+  }, {
+    "url": "/assets/comics/catsandwork/strip2.png",
+    "alt": "What's that sound?"
+  }, {
+    "url": "/assets/comics/catsandwork/strip3.png",
+    "alt": "LOOKS PAST THE COMPUTER AND SEES A SLEEPING CAT"
+  }, {
+    "url": "/assets/comics/catsandwork/strip4.png",
+    "alt": "The worst part of remote work is seeing your cats peacefully sleep while you worry about deadlines and other work stuff."
+  }],
+  "fullComicImage": "/assets/comics/catsandwork/Full.png",
+  "socialMediaReady": "/assets/comics/catsandwork/social.png"
 }]
